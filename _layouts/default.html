@@ -2,15 +2,24 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
+    <link rel="stylesheet" href="{{site.baseurl}}/css/site.css"/>
 </head>
 <body>
 <header>
-    <ul>
-        <li><a href="index.html">index</a</li>
-        <li><a href="about.html">about</a</li>
-    </ul>
+    <div class="container header">
+        <div class="logo">
+            <h1>JUN WANG</h1>
+        </div>
+        {% include nav.html navClass='nav-top' %}
+    </div>
 </header>
-{{ content }}
+{{content}}
+
+<footer>
+
+</footer>
+
 </body>
 </html>

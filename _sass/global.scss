@@ -1,0 +1,63 @@
+//general styles
+body {
+  padding: 75px 0 0;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+a {
+  color: #1496bb;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+}
+//navigation
+header {
+  border-bottom: 1px solid #ccc;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  h1 {
+    font-size: 14px;
+    line-height: 36px;
+  }
+  .header {
+    height: 36px;
+    padding: 20px 0 0;
+    .logo {
+      float: left;
+      height: 36px;
+      margin: 0 38px 0 0;
+      width: 102px;
+    }
+    nav {
+      li {
+        float: left;
+        a {
+          padding: 0 20px;
+          display: inline-block;
+          line-height: 36px;
+          font-size: 14px;
+          text-transform: uppercase;
+          color: #545454;
+        }
+        a:hover {
+          text-decoration: underline;
+          color:  #a2a8a8;
+        }
+        a.current {
+          border-bottom: solid 4px #2098d1;
+        }
+      }
+    }
+  }
+
+}
+nav {
+
+}
+.nav-top {
+
+}

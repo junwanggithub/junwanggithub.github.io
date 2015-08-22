@@ -1,3 +1,7 @@
 markdown: redcarpet
-baseurl: /
+baseurl:
 exclude: ['README.md']
+permalink: pretty
+sass:
+    sass_dir: _sass
+    style: compressed

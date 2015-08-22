@@ -1,0 +1,32 @@
+/*general style*/
+html {
+    font-family: Helvetica, Arial, sans-serif;
+    /*font-family: palatino,georgia,serif;*/
+    /*font-family: Georgia, 'Times New Roman', Times, serif;*/
+    /*font-family:"adelle-sans",sans-serif*/
+    font-size: 14px;
+    color: #333333;
+    background-color: #eeeeee;
+}
+a {
+    text-decoration: none;
+    color: #33b5e5;
+}
+
+.hidden {
+    display: none;
+}
+/*general style end*/
+
+/*grid style*/
+
+/*grid style end*/
+/*header*/
+header h1{
+    font-weight: 700;
+
+}
+/*header nav*/
+.current {
+    background: #636363;
+}
