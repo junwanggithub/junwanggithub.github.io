@@ -1,0 +1,20 @@
+---
+layout: default
+---
+<div class="container">
+    <ul class="portfolio row">
+        {% for item in site.data.portfolio %}
+        <li>
+            <a href="https://github.com/{{ item.url }}">
+                <img src="http://placehold.it/310x180" class="attachment-post-thumbnail wp-post-image" alt="feature-monitor">
+                <div class="description">
+                    <span class="arrow-r fa fa-chevron-right"></span>
+                    <h4>{{ item.title }}</h4>
+                    <p>{{ item.summary }}</p>
+                </div>
+
+            </a>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
