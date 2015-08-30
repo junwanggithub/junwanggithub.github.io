@@ -1,0 +1,18 @@
+[
+  {
+    'category': 'html',
+    'name': 'HTML'
+  },
+  {
+    'category': 'css',
+    'name': 'CSS'
+  },
+  {
+    'category': 'javascript',
+    'name': 'JS'
+  },
+  {
+    'category': 'data-visualization',
+    'name': 'Data Visualization'
+  }
+]

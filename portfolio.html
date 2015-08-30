@@ -2,9 +2,15 @@
 layout: default
 ---
 <div class="container">
+    <div class="row categories">
+        <a data-type="all" class="active">ALL</a>
+        {% for item in site.data.filter %}
+        <a data-type="{{ item.category }}">{{ item.name }}</a>
+        {% endfor %}
+    </div>
     <ul class="portfolio row">
         {% for item in site.data.portfolio %}
-        <li>
+        <li data-type="{{ item.category }}" data-id="{{ forloop.index }}">
             <a href="https://github.com/{{ item.url }}">
                 <img src="http://placehold.it/310x180" class="attachment-post-thumbnail wp-post-image" alt="feature-monitor">
                 <div class="description">

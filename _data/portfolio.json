@@ -1,43 +1,43 @@
 [
   {
     'title':'CSS Grid',
-    'summary': 'Responsive grid system',
+    'summary': 'Responsive Grid System',
     'url':'#',
     'thumbnail': '',
     'category': 'css',
     'keyword':'css,grid'
   },
   {
-    'title':'Matrix table',
-    'summary': 'Highchart dgrid plugin for matrix table',
+    'title':'Matrix Table',
+    'summary': 'Highchart Dgrid Plugin for Matrix Table',
     'url':'#',
     'thumbnail': '',
-    'category': 'data visualization',
+    'category': 'data-visualization',
     'keyword':'data visualization,highchart,dgrid'
   },
   {
-    'title':'Matrix table',
-    'summary': 'Highchart dgrid plugin for matrix table',
+    'title':'HTML Layout',
+    'summary': 'Layout Template',
     'url':'#',
     'thumbnail': '',
-    'category': 'data visualization',
-    'keyword':'data visualization,highchart,dgrid'
+    'category': 'html',
+    'keyword':'html,layout'
   },
   {
-    'title':'Matrix table',
-    'summary': 'Highchart dgrid plugin for matrix table',
+    'title':'Dojo Route',
+    'summary': 'Dojo Route Remove Index Bug Fix',
     'url':'#',
     'thumbnail': '',
-    'category': 'data visualization',
-    'keyword':'data visualization,highchart,dgrid'
+    'category': 'javascript',
+    'keyword':'javascript,dojo,route'
   },
   {
-    'title':'Matrix table',
-    'summary': 'Highchart dgrid plugin for matrix table',
+    'title':'Chrome Plugin',
+    'summary': 'Chrome Plugin',
     'url':'#',
     'thumbnail': '',
-    'category': 'data visualization',
-    'keyword':'data visualization,highchart,dgrid'
+    'category': 'javascript',
+    'keyword':'chrome,plugin'
   }
 
 ]
