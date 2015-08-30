@@ -148,3 +148,12 @@ nav {
 .portfolio {
 
 }
+.categories {
+  padding: 0 0 20px;
+}
+.categories a {
+  margin: 0 10px 10px 0;
+}
+.categories a.current {
+  border-bottom: 1px solid orange;
+}

@@ -14,5 +14,9 @@
   {
     'category': 'data-visualization',
     'name': 'Data Visualization'
+  },
+  {
+    'category': 'algorithm',
+    'name': 'Algorithm'
   }
 ]

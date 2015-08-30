@@ -3,7 +3,7 @@ layout: default
 ---
 <div class="container">
     <div class="row categories">
-        <a data-type="all" class="active">ALL</a>
+        <a data-type="all" class="current">ALL</a>
         {% for item in site.data.filter %}
         <a data-type="{{ item.category }}">{{ item.name }}</a>
         {% endfor %}

@@ -1,5 +1,13 @@
 [
   {
+    'title':'D3',
+    'summary': 'D3 Demos',
+    'url':'http://junwanggithub.github.io/datavisualization/d3_demos',
+    'thumbnail': '',
+    'category': 'data-visualization',
+    'keyword':'data visualization,D3'
+  },
+  {
     'title':'CSS Grid',
     'summary': 'Responsive Grid System',
     'url':'#',
@@ -38,6 +46,15 @@
     'thumbnail': '',
     'category': 'javascript',
     'keyword':'chrome,plugin'
+  },
+  {
+    'title':'Queue',
+    'summary': 'Queue algorithm and animation',
+    'url':'http://junwanggithub.github.io/algorithm/queue',
+    'thumbnail': '',
+    'category': 'algorithm',
+    'keyword':'algorithm,tree'
   }
+
 
 ]

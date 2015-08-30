@@ -14,6 +14,9 @@
             return filterName === 'all' ? true : $(this).data('type') === filterName;
         });
 
+        $('.categories a').removeClass('current');
+        $this.addClass('current');
+
         WJ.$portfolioContainer.quicksand($target, {
             adjustHeight: false,
             adjustWidth: false,
