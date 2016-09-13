@@ -1,5 +1,17 @@
 ---
 layout: default
 ---
-<div class="container">This is index page</div>
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>-->
+
+<div class="container">
+    <h2>Front-End Dev Skills</h2>
+    <ul class="skills row">
+        {% for item in site.data.skills %}
+        <li data-type="{{ item.category }}">
+            <h4>{{ item.name }}</h4>
+            <p>{{ item.content }}</p>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
 

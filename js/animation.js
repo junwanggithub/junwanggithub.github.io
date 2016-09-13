@@ -43,5 +43,24 @@
         $('.portfolio li').stop().animate({'opacity': '1'}, 500);
 
     });
+
+    //scrollable
+    window.sr = ScrollReveal();
+    if (sr.isSupported()) {
+        document.documentElement.classList.add('sr');
+    }
+    var fooReveal = {
+        duration: 2000,
+        //delay: 50,
+        distance : '90px',
+        easing   : 'ease-in-out',
+        //rotate   : { z: 10 },
+        scale    : 1.1
+        //useDelay : 'once',
+        //container : '.skills'
+        //reset: true,
+        //viewOffset: { top: 64 }
+    };
+    sr.reveal('.skills li', fooReveal);
 })($);
 

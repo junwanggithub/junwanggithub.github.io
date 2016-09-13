@@ -1,0 +1,71 @@
+[
+  {
+    "name": "Javascript",
+    "content": "ES6, Object-Oriented, UI Widgets, Module/AMD/CommonJs, Closure, Promise, Single Page Applications/Restful/XHR/Json/Jsonp, Prototype, Animation"
+  },
+  {
+    "name": "HTML",
+    "content": "HTML5, Cross-Browser, Session/Cookie/Local storage"
+  },
+  {
+    "name": "CSS",
+    "content": "CSS3, Cross-Browser, Flex box, Grid, Less/SCSS, Uglify/Concat, Responsive"
+  },
+  {
+    "name": "Angular1",
+    "content": "Directive, Service, Controller, Filter, Lazyload, Interceptor, Angular-Material, ui-router, ui-grid, Cancellable api call, i18n"
+  },
+  {
+    "name": "Data Visualization",
+    "content": "D3, highchart"
+  },
+  {
+    "name": "Task runner",
+    "content": "gulp, webpack"
+  },
+  {
+    "name": "Testing",
+    "content": "unit testing, e2e testing"
+  },
+  {
+    "name": "Nodejs",
+    "content": "Express/handlebar, Phantomjs, npm"
+  },
+  {
+    "name": "Database",
+    "content": "mongoDB, indexDB, pouchdb"
+  },
+  {
+    "name": "Other Javascript Libs",
+    "content": "requirejs, Timezone, Lodash, jQuery, dojo, Redux"
+  },
+  {
+    "name": "Chromes",
+    "content": "chrome extension, chrome app, performance"
+  },
+  {
+    "name": "UX Design",
+    "content": "wireframe design, sketchapp"
+  },
+  {
+    "name": "Angular2",
+    "content": ""
+  },
+  {
+    "name": "React",
+    "content": ""
+  },
+  {
+    "name": "Progressive web app",
+    "content": ""
+  },
+  {
+    "name": "Android",
+    "content": ""
+  },
+  {
+    "name": "IOS",
+    "content": ""
+  }
+
+]

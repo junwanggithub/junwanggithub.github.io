@@ -5,9 +5,14 @@ layout: default
     This is blog pages
     <nav>
         <ul>
-            <li><a href="{{site.baseurl}}/js.html">JS</a></li>
-            <li><a href="{{site.baseurl}}/css.html">CSS</a></li>
-            <li><a href="{{site.baseurl}}/html.html">HTML</a></li>
+            {% for post in site.posts %}
+            <li>
+                <a href="{{post.folder}}">{{post.title}}</a>
+                {{post.content}}
+            </li>
+            <!--<li><a href="{{site.baseurl}}/css.html">CSS</a></li>-->
+            <!--<li><a href="{{site.baseurl}}/html.html">HTML</a></li>-->
+            {% endfor %}
         </ul>
     </nav>
 </div>
